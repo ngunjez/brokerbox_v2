@@ -15,12 +15,12 @@ display:flex;
 }
 `
 
-export const TopLogo = styled.div`
+export const TopLogo = styled.nav`
 position:absolute;
 width: 353px;
 height: 79px;
 flex-shrink: 0;
-background-image:url("/Top_logo.svg");
+background-image:url("/Top_Logo.svg");
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
