@@ -15,7 +15,7 @@ display:flex;
 }
 `
 
-export const TopLogo = styled.nav`
+export const TopLogo = styled.div`
 position:absolute;
 width: 353px;
 height: 79px;
