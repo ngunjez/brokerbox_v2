@@ -76,7 +76,6 @@ text-transform: capitalize;
 export const RecText2 = styled.div`
 color: #FFF;
 text-align: center;
-font-family: Proxima Nova;
 font-size: 42px;
 font-style: normal;
 font-weight: 400;
@@ -111,7 +110,6 @@ position:absolute;
 display:flex;
 flex-direction:row;
 color: #FFF;
-font-family: Proxima Nova;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
