@@ -6,6 +6,12 @@ width:100%;
 min-height:100vh;
 background-color:#000000;
 display:flex;
+@media screen and (max-width: 1600px) {
+    width:100%;
+    height:700px;
+    flex-direction:row;
+    justify-content:center;
+}
 @media screen and (max-width: 768px){
     width:auto;
     height:auto;
@@ -26,6 +32,11 @@ background-repeat:no-repeat;
 background-size:cover;
 top:76px;
 left:90px;
+@media screen and (max-width: 1600px) {
+    top:50px;
+    width:300px;
+    height:60px;
+}
 @media screen and (max-width:768px) {
     width:280px;
     height:60px;
@@ -45,6 +56,12 @@ justify-content:center;
 align-items:center;
 top:391px;
 left:365px;
+gap:42px;
+@media screen and (max-width: 1600px) {
+    top:200px;
+    width:900px;
+    left:20px;
+}
 @media screen and (max-width: 768px){
     width:auto;
     height:100px;
@@ -54,7 +71,7 @@ left:365px;
     justify-content:center;
     flex-direction:column;
     top:-10px;
-    gap:30px;
+    gap:40px;
     text-align: left;
 }
 `
@@ -68,6 +85,9 @@ font-style: normal;
 font-weight: 300;
 line-height: 109.5%;
 text-transform: capitalize;
+@media screen and (max-width: 1600px) {
+    font-size:70px;
+}
 @media screen and (max-width: 768px){
     font-size:30px;
 }
@@ -80,11 +100,11 @@ font-size: 42px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+@media screen and (max-width: 1600px) {
+    font-size:30px;
+}
 @media screen and (max-width: 768px){
     font-size:16px;
-    // word-wrap: break-word;
-    // white-space: pre-line;
-    // overflow-wrap: break-word;
     white-space: pre-line;
 }
 `
@@ -117,9 +137,130 @@ line-height: normal;
 right:110px;
 bottom:99px;
 @media screen and (max-width:768px){
-    left:100px;
+    width:90%;
+    left:50px;
     top:680px;
 flex-direction:row;
 white-space:no-wrap;
+}
+`
+
+export const Dot1 = styled.div`
+position:absolute;
+width: 6px;
+height: 6px;
+flex-shrink: 0;
+fill: #FFF;
+top:276px;
+left:218px;
+background-image:url("/dot.svg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+@media screen and (max-width: 1600px) {
+    top:245px;
+    left:181px;
+}
+@media screen and (max-width:768px){
+    width:3px;
+    height:3px;
+    top:103px;
+    left:23px;
+}
+`
+
+export const Dot2 = styled.div`
+position:absolute;
+width: 6px;
+height: 6px;
+flex-shrink: 0;
+fill: #FFF;
+top:276px;
+left:442px;
+background-image:url("/dot2.svg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+@media screen and (max-width: 1600px) {
+    top:245px;
+    left:341px;
+}
+@media screen and (max-width:768px){
+    width:3px;
+    height:3px;
+    top:103px;
+    left:109px;
+}
+`
+
+export const Dot3 = styled.div`
+position:absolute;
+width: 6px;
+height: 6px;
+flex-shrink: 0;
+fill: #FFF;
+top:276px;
+left:757px;
+background-image:url("/dot3.svg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+@media screen and (max-width: 1600px) {
+    top:245px;
+    left:565px;
+}
+@media screen and (max-width:768px){
+    width:3px;
+    height:3px;
+    top:103px;
+    left:229px;
+}
+`
+
+export const Dot4 = styled.div`
+position:absolute;
+width: 6px;
+height: 6px;
+flex-shrink: 0;
+fill: #FFF;
+top:276px;
+left:898px;
+background-image:url("/dot4.svg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+@media screen and (max-width: 1600px) {
+    top:245px;
+    left:666px;
+}
+@media screen and (max-width:768px){
+    width:3px;
+    height:3px;
+    top:103px;
+    left:282px;
+}
+`
+
+export const Dot5 = styled.div`
+position:absolute;
+width: 6px;
+height: 6px;
+flex-shrink: 0;
+fill: #FFF;
+top:276px;
+left:1038px;
+background-image:url("/dot5.svg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+@media screen and (max-width: 1600px) {
+    top:245px;
+    left:765px;
+}
+@media screen and (max-width:768px){
+    width:3px;
+    height:3px;
+    top:103px;
+    left:336px;
 }
 `
