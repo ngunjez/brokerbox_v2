@@ -140,7 +140,7 @@ bottom:99px;
     width:90%;
     height:auto;
     left:50px;
-    top:680px;
+    top:700px;
 flex-direction:row;
 white-space:no-wrap;
 }
