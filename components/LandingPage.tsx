@@ -1,4 +1,4 @@
-import { BottomLogo, Dot1, Dot2, Dot3, Dot4, Dot5, LandingPageContainer, Rec, RecText1, RecText2, Rights_Text, TopLogo,  } from '@/styles/LandingPage';
+import { BottomLogo, Dot1, Dot2, Dot3, Dot4, Dot5, Email, LandingPageContainer, LinkedIn, Links_rec, Rec, RecText1, RecText2, Rights_Text, TopLogo, Button, Twitter,  } from '@/styles/LandingPage';
 import React from 'react';
 
 const LandingPage = () => {
@@ -16,6 +16,13 @@ const LandingPage = () => {
         </Rec>
         <BottomLogo></BottomLogo>
         <Rights_Text>© {new Date().getFullYear()} Brokerbox. All rights reserved.</Rights_Text>
+        <Links_rec>
+        <Twitter></Twitter>
+        <LinkedIn></LinkedIn>
+        <Email></Email>
+        </Links_rec>
+        <Button>Get In Touch</Button>
+
     </LandingPageContainer>
   )
 }

@@ -119,10 +119,64 @@ background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 left:89px;
-bottom:92px;
+top:90%;
 @media screen and (max-width:768px){
 left:110px;
+top:80%;
 }
+@media screen and (max-width:650px){
+    left:120px;
+}
+`
+
+export const Links_rec = styled.div`
+position:absolute;
+width:105px;
+height:22px;
+flex-shrink:0;
+left:89px;
+top:95%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+cursor:pointer;
+@media screen and (max-width: 768px){
+    left:120px;
+    top:88%;
+}
+`
+
+export const Twitter = styled.div`
+width: 21px;
+height: 20px;
+flex-shrink: 0;
+fill: #FFF;
+background-image:url("/X_icon.svg");
+background-position:center;
+background-repeat:center;
+background-size:cover;
+`
+
+export const LinkedIn = styled.div`
+width: 22px;
+height: 22px;
+flex-shrink: 0;
+fill: #FFF;
+background-image:url("/LinkedIn_icon.svg");
+background-position:center;
+background-repeat:center;
+background-size:cover;
+`
+
+export const Email = styled.div`
+width: 26px;
+height: 20px;
+flex-shrink: 0;
+fill: #FFF;
+background-image:url("/Email_icon.svg");
+background-position:center;
+background-repeat:center;
+background-size:cover;
 `
 
 export const Rights_Text = styled.div`
@@ -135,15 +189,16 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 right:110px;
-bottom:99px;
+top:90%;
 @media screen and (max-width:768px){
-    width:90%;
+    width:95%;
     height:auto;
     left:50px;
-    top:700px;
+    top:95%;
 flex-direction:row;
 white-space:no-wrap;
 }
+
 `
 
 export const Dot1 = styled.div`
@@ -263,5 +318,37 @@ background-size:cover;
     height:3px;
     top:103px;
     left:336px;
+}
+`
+
+export const Button = styled.button`
+position: absolute;
+top:75%;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+left:45%;      
+width: 152px;
+height: 43px;
+display: inline-flex;
+padding: 16px 32px;
+border-radius: 5px;
+background: #364CE5;
+border: none;
+gap:10px;
+color: #FFF;
+text-edge: cap;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 158.023%;
+white-space: nowrap;
+cursor:pointer;
+@media screen and (max-width: 768px){
+top:62%;
+width:100px;
+height:35px;
+font-size:16px;
+left:36%;
 }
 `
