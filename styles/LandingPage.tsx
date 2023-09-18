@@ -364,6 +364,12 @@ font-weight: 400;
 line-height: 158.023%;
 white-space: nowrap;
 cursor:pointer;
+
+&:hover {
+    background: #FFF; 
+    color: #000; 
+  }
+
 @media screen and (max-width: 768px){
 top:52%;
 width:160px;
