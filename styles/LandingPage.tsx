@@ -38,9 +38,9 @@ left:90px;
     height:60px;
 }
 @media screen and (max-width:768px) {
-    width:280px;
-    height:60px;
-    left:35px;
+    width:250px;
+    height:55px;
+    left:39px;
     top:35px;
 }
 `
