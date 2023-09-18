@@ -56,22 +56,22 @@ justify-content:center;
 align-items:center;
 top:281px;
 left:365px;
-gap:42px;
+gap:32px;
 @media screen and (max-width: 1600px) {
     top:200px;
     width:900px;
     left:20px;
+    gap:28px;
 }
 @media screen and (max-width: 768px){
     width:auto;
     height:100px;
     left:-6px;
-    gap:10px;
     align-items:center;
     justify-content:center;
     flex-direction:column;
     top:-80px;
-    gap:40px;
+    gap:18px;
     text-align: left;
 }
 `
@@ -94,6 +94,22 @@ text-transform: capitalize;
 `
 
 export const RecText2 = styled.div`
+color: #FFF;
+text-align: center;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+@media screen and (max-width: 1600px) {
+    font-size:30px;
+}
+@media screen and (max-width: 768px){
+    font-size:16px;
+    white-space: pre-line;
+}
+`
+
+export const RecText3 = styled.div`
 color: #FFF;
 text-align: center;
 font-size: 42px;
@@ -140,6 +156,10 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 cursor:pointer;
+@media screen and (max-width: 1600px) {
+    top:96%;
+    left:89px;
+}
 @media screen and (max-width: 768px){
     left:138px;
     top:88%;
@@ -193,7 +213,7 @@ top:90%;
 @media screen and (max-width:768px){
     width:95%;
     height:auto;
-    left:70px;
+    left:55px;
     top:95%;
 flex-direction:row;
 white-space:no-wrap;
@@ -207,20 +227,20 @@ width: 6px;
 height: 6px;
 flex-shrink: 0;
 fill: #FFF;
-top:276px;
+top:234px;
 left:212px;
 background-image:url("/dot.svg");
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 @media screen and (max-width: 1600px) {
-    top:245px;
-    left:181px;
+    top:204px;
+    left:175px;
 }
 @media screen and (max-width:768px){
     width:3px;
     height:3px;
-    top:103px;
+    top:75px;
     left:23px;
 }
 `
@@ -231,20 +251,20 @@ width: 6px;
 height: 6px;
 flex-shrink: 0;
 fill: #FFF;
-top:276px;
+top:234px;
 left:435px;
 background-image:url("/dot2.svg");
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 @media screen and (max-width: 1600px) {
-    top:245px;
-    left:341px;
+    top:204px;
+    left:335px;
 }
 @media screen and (max-width:768px){
     width:3px;
     height:3px;
-    top:103px;
+    top:75px;
     left:109px;
 }
 `
@@ -255,20 +275,20 @@ width: 6px;
 height: 6px;
 flex-shrink: 0;
 fill: #FFF;
-top:276px;
+top:234px;
 left:750px;
 background-image:url("/dot3.svg");
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 @media screen and (max-width: 1600px) {
-    top:245px;
-    left:565px;
+    top:204px;
+    left:559px;
 }
 @media screen and (max-width:768px){
     width:3px;
     height:3px;
-    top:103px;
+    top:75px;
     left:229px;
 }
 `
@@ -279,20 +299,20 @@ width: 6px;
 height: 6px;
 flex-shrink: 0;
 fill: #FFF;
-top:276px;
+top:234px;
 left:890px;
 background-image:url("/dot4.svg");
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 @media screen and (max-width: 1600px) {
-    top:245px;
-    left:666px;
+    top:204px;
+    left:660px;
 }
 @media screen and (max-width:768px){
     width:3px;
     height:3px;
-    top:103px;
+    top:75px;
     left:282px;
 }
 `
@@ -303,20 +323,20 @@ width: 6px;
 height: 6px;
 flex-shrink: 0;
 fill: #FFF;
-top:276px;
+top:234px;
 left:1043px;
 background-image:url("/dot5.svg");
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 @media screen and (max-width: 1600px) {
-    top:245px;
-    left:765px;
+    top:204px;
+    left:770px;
 }
 @media screen and (max-width:768px){
     width:3px;
     height:3px;
-    top:103px;
+    top:75px;
     left:342px;
 }
 `
@@ -347,7 +367,7 @@ cursor:pointer;
 @media screen and (max-width: 768px){
 top:52%;
 width:160px;
-height:35px;
+height:39px;
 font-size:16px;
 left:28%;
 }

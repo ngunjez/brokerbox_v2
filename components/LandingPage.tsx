@@ -1,4 +1,4 @@
-import { BottomLogo, Dot1, Dot2, Dot3, Dot4, Dot5, Email, LandingPageContainer, LinkedIn, Links_rec, Rec, RecText1, RecText2, Rights_Text, TopLogo, Button, Twitter,  } from '@/styles/LandingPage';
+import { BottomLogo, Dot1, Dot2, Dot3, Dot4, Dot5, Email, LandingPageContainer, LinkedIn, Links_rec, Rec, RecText1, RecText2, Rights_Text, TopLogo, Button, Twitter, RecText3,  } from '@/styles/LandingPage';
 import React from 'react';
 
 const LandingPage = () => {
@@ -8,6 +8,7 @@ const LandingPage = () => {
         <Rec>
             <RecText1>Streamlining Property <br />Listing and Matching</RecText1>
             <RecText2>For  Developers  Property owners  Agents  Brokers</RecText2>
+            <RecText3>Influencers & Direct Buyers</RecText3>
             <Dot1></Dot1>
             <Dot2></Dot2>
             <Dot3></Dot3>
