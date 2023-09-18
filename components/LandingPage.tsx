@@ -7,7 +7,7 @@ const LandingPage = () => {
         <TopLogo></TopLogo>
         <Rec>
             <RecText1>Streamlining Property <br />Listing and Matching</RecText1>
-            <RecText2>For  Developers  Property owners  Agents  Buyers</RecText2>
+            <RecText2>For  Developers  Property owners  Agents  Brokers</RecText2>
             <Dot1></Dot1>
             <Dot2></Dot2>
             <Dot3></Dot3>

@@ -54,7 +54,7 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-top:391px;
+top:281px;
 left:365px;
 gap:42px;
 @media screen and (max-width: 1600px) {
@@ -70,7 +70,7 @@ gap:42px;
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    top:-10px;
+    top:-80px;
     gap:40px;
     text-align: left;
 }
@@ -125,7 +125,7 @@ left:110px;
 top:80%;
 }
 @media screen and (max-width:650px){
-    left:120px;
+    left:135px;
 }
 `
 
@@ -141,7 +141,7 @@ justify-content:space-between;
 align-items:center;
 cursor:pointer;
 @media screen and (max-width: 768px){
-    left:120px;
+    left:138px;
     top:88%;
 }
 `
@@ -193,7 +193,7 @@ top:90%;
 @media screen and (max-width:768px){
     width:95%;
     height:auto;
-    left:50px;
+    left:70px;
     top:95%;
 flex-direction:row;
 white-space:no-wrap;
@@ -208,7 +208,7 @@ height: 6px;
 flex-shrink: 0;
 fill: #FFF;
 top:276px;
-left:218px;
+left:212px;
 background-image:url("/dot.svg");
 background-position:center;
 background-repeat:no-repeat;
@@ -232,7 +232,7 @@ height: 6px;
 flex-shrink: 0;
 fill: #FFF;
 top:276px;
-left:442px;
+left:435px;
 background-image:url("/dot2.svg");
 background-position:center;
 background-repeat:no-repeat;
@@ -256,7 +256,7 @@ height: 6px;
 flex-shrink: 0;
 fill: #FFF;
 top:276px;
-left:757px;
+left:750px;
 background-image:url("/dot3.svg");
 background-position:center;
 background-repeat:no-repeat;
@@ -280,7 +280,7 @@ height: 6px;
 flex-shrink: 0;
 fill: #FFF;
 top:276px;
-left:898px;
+left:890px;
 background-image:url("/dot4.svg");
 background-position:center;
 background-repeat:no-repeat;
@@ -304,7 +304,7 @@ height: 6px;
 flex-shrink: 0;
 fill: #FFF;
 top:276px;
-left:1038px;
+left:1043px;
 background-image:url("/dot5.svg");
 background-position:center;
 background-repeat:no-repeat;
@@ -317,7 +317,7 @@ background-size:cover;
     width:3px;
     height:3px;
     top:103px;
-    left:336px;
+    left:342px;
 }
 `
 
@@ -345,10 +345,10 @@ line-height: 158.023%;
 white-space: nowrap;
 cursor:pointer;
 @media screen and (max-width: 768px){
-top:62%;
-width:100px;
+top:52%;
+width:160px;
 height:35px;
 font-size:16px;
-left:36%;
+left:28%;
 }
 `
